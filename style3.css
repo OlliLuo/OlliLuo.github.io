@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 250%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+ .container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.image {
+  flex-basis: 40%;
+  padding-left: 550px;
+}
+
+.text {
+  font-size: 20px;
+  padding-right: 400px;
+}
+a:link {
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
