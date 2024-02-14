@@ -32,7 +32,7 @@ p {
 }
 a:link {
     background-color: #ffffff;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 23px;
     text-align: center;
     text-decoration: none;
