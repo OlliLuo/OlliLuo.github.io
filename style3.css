@@ -18,16 +18,12 @@ p {
  .container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
-.image {
-  padding-left: 450px;
-}
 
 .text {
   font-size: 18px;
-  padding-right: 400px;
 }
 a:link {
     background-color: #ffffff;
