@@ -22,12 +22,11 @@ p {
 }
 
 .image {
-  flex-basis: 40%;
-  padding-left: 550px;
+  padding-left: 500px;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 400px;
 }
 a:link {
