@@ -36,18 +36,16 @@ p1 {
   }
 }
 
- 
-
-  a:link {
+ a:link {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 12px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  a:hover, a:active {
+}
+a:hover, a:active {
     /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
     background-color: rgb(23, 23, 23);
     color: white;
-  }
+}

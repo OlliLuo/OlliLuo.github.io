@@ -15,7 +15,7 @@ p {
     font-weight: bold;
 }
 
- .container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +41,7 @@ p {
         font-size: 22px;
     }
 }
+
 a:link {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -49,6 +50,7 @@ a:link {
     text-decoration: none;
     display: inline-block;
 }
+
 a:hover, a:active {
     /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
     background-color: rgb(23, 23, 23);

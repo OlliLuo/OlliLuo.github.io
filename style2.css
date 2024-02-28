@@ -9,11 +9,13 @@ h1 {
     font-size: 250%;
     text-align: center;
 }
+
 p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
  }
+
  p1 {
     font-size: 110%;
     font-family: 'Times New Roman', Times, serif;
@@ -21,15 +23,17 @@ p {
     display: inline-block;
     width: 100%;
 }
-  a:link {
+
+a:link {
     color: rgb(0, 0, 0);
     padding: 12px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  a:hover, a:active {
+}
+
+a:hover, a:active {
     /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
     background-color: rgb(23, 23, 23);
     color: white;
-  }
+}
