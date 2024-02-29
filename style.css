@@ -14,12 +14,14 @@ h1 {
     font-family: verdana;
     font-size: 250%;
     text-align: center;
+    
 }
 
 p {
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace
+    
 }
 
 pre {
@@ -27,6 +29,7 @@ pre {
     color:black;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace
+    
 }
 
 a:link {
@@ -37,6 +40,7 @@ a:link {
     text-decoration: none;
     display: inline-block;
     margin-left: 40px;
+    
 }
 
 a:hover, a:active {
