@@ -40,6 +40,7 @@ p {
         display: none;
     }
     .text {
+        font-family: lato;
         font-size: 22px;
         border-style: solid;
         border-width: medium;
