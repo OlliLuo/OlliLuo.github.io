@@ -11,7 +11,8 @@ img {
 
 h1 {
     color: rgb(0, 0, 0);
-    font-family: verdana;
+    font-family: Raleway;
+    font-weight: 350;
     font-size: 250%;
     text-align: center;
   }
@@ -26,7 +27,7 @@ p1 {
     width: 100%;
     display: inline-block;
     font-size: 130%;
-    font-family:'Times New Roman', Times, serif   
+    font-family: lato;  
  }
 
  @media only screen and (max-width: 420px){
