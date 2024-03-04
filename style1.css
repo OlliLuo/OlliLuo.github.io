@@ -27,16 +27,17 @@ p {
     font-weight: bold;
  }
 
-p1 {
+.kuvaus p {
     text-align: center;
     width: 100%;
     display: inline-block;
     font-size: 130%;
+    font-weight: 400;
     font-family: lato;  
  }
 
  @media only screen and (max-width: 420px){
-  p1 {
+  .kuvaus p {
     font-size: small;
     text-align: center;
   }
