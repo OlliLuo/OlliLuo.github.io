@@ -9,6 +9,7 @@ img {
     max-width: 100%;
 }
 
+
 h1 {
     color: rgb(0, 0, 0);
     font-family: Raleway;
@@ -16,6 +17,11 @@ h1 {
     font-size: 250%;
     text-align: center;
     
+}
+
+hr {
+    width: 40%;
+    color: rgb(255, 0, 0);
 }
 
 p {
