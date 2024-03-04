@@ -26,7 +26,7 @@ p {
     font-weight: bold;
  }
 
-p1 {
+.text {
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -35,7 +35,7 @@ p1 {
  }
 
  @media only screen and (max-width: 420px){
-  p1 {
+  .text {
     font-size: small;
     text-align: center;
   }
