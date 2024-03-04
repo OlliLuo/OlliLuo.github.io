@@ -27,7 +27,7 @@ p {
     font-weight: bold;
  }
 
-.kuvaus p {
+.kuvaus {
     text-align: center;
     width: 100%;
     display: inline-block;
