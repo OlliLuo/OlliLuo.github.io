@@ -21,7 +21,9 @@ h1 {
 
 hr {
     width: 40%;
-    color: red;
+    height: 1px;
+    background-color: red;
+    border: none
 }
 
 p {

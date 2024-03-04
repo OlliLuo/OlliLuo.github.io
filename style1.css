@@ -19,7 +19,10 @@ h1 {
 
   hr {
     width: 30%;
-    color: red;
+    height: 1px;
+    background-color: red;
+    border: none
+
 } 
 p {
     text-align: center;
