@@ -29,8 +29,7 @@ hr {
 p {
     text-align: center;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace
-    
+    font-family: 'Courier New', Courier, monospace  
 }
 
 pre {
@@ -47,7 +46,6 @@ a:link {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: 40px;
     
 }
 
