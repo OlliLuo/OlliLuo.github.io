@@ -53,11 +53,11 @@ hr {
 }
 
 pre {
-        /* Sähköpostilinkki */
-            text-align: center;
-            color:black;
-            font-weight: bold;
-            font-family: 'Courier New', Courier, monospace    
+/* Sähköpostilinkki */
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace    
 }
 
 .tyo {
@@ -78,40 +78,42 @@ pre {
 }
 
 @media only screen and (max-width: 420px){
+/* Kuvausta pienemmäksi puhelimella */
     .kuvaus {
       font-size: small;
     }
-  }
+}
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+}
   
 .text {
+/* Listaus kouluista */   
     font-size: 18px;
     font-family: lato;
     padding-left: 10px;
 }
   
 @media only screen and (min-width: 1025px) {
-  .image {
+    .image {
       width: 20%;
-      }
+    }
 }
   
 @media only screen and (max-width: 420px) {
-      .image {
+/* Puhelimella koulutus-sivulla kuva piiloon ja tekstin ympärille raunat */
+    .image {
           display: none;
-      }
-      .text {
+    }
+    .text {
           font-size: 22px;
           border-style: solid;
           border-width: medium;
           margin-left: 10px;
           padding: 10px;
           border-radius: 8px;
-      }
+    }
 }
