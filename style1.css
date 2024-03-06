@@ -15,20 +15,20 @@ h1 {
     font-weight: 350;
     font-size: 250%;
     text-align: center;
-  }
+}
 
-  hr {
+hr {
     width: 30%;
     height: 1px;
     background-color: red;
     border: none;
-
 } 
+
 p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
- }
+}
 
 .kuvaus {
     text-align: center;
@@ -37,16 +37,15 @@ p {
     font-size: 130%;
     font-weight: 400;
     font-family: lato;  
- }
+}
 
- @media only screen and (max-width: 420px){
+@media only screen and (max-width: 420px){
   .kuvaus {
     font-size: small;
-    text-align: center;
   }
 }
 
- a:link {
+a:link {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 12px 23px;
@@ -54,6 +53,7 @@ p {
     text-decoration: none;
     display: inline-block;
 }
+
 a:hover, a:active {
     /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
     background-color: rgb(23, 23, 23);

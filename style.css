@@ -9,14 +9,12 @@ img {
     max-width: 100%;
 }
 
-
 h1 {
     color: rgb(0, 0, 0);
     font-family: Raleway;
     font-weight: 350;
     font-size: 250%;
     text-align: center;
-    
 }
 
 hr {
@@ -46,7 +44,6 @@ a:link {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
 }
 
 a:hover, a:active {
