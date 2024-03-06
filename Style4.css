@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    padding: 12px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+/* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-weight: 350;
+    font-size: 250%;
+    text-align: center;
+}
+
+hr {
+    /* Punaiset vaakaviivat */
+        width: 30%;
+        height: 1px;
+        background-color: red;
+        border: none;
+}
+
+.tyo hr {
+    width: 10%;
+    height: 0.10em;
+    background-color: red;
+    border: none;
+}
+
+pre {
+        /* Sähköpostilinkki */
+            text-align: center;
+            color:black;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace    
+}
+
+.tyo {
+    font-size: 110%;
+    font-family: lato;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.kuvaus {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 130%;
+    font-weight: 400;
+    font-family: lato;  
+}
+
+@media only screen and (max-width: 420px){
+    .kuvaus {
+      font-size: small;
+    }
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+.text {
+    font-size: 18px;
+    font-family: lato;
+    padding-left: 10px;
+}
+  
+@media only screen and (min-width: 1025px) {
+  .image {
+      width: 20%;
+      }
+}
+  
+@media only screen and (max-width: 420px) {
+      .image {
+          display: none;
+      }
+      .text {
+          font-size: 22px;
+          border-style: solid;
+          border-width: medium;
+          margin-left: 10px;
+          padding: 10px;
+          border-radius: 8px;
+      }
+}
