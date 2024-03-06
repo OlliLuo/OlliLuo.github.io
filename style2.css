@@ -12,6 +12,7 @@ h1 {
 }
 
 hr {
+/* Punaiset vaakaviivat */
     width: 30%;
     height: 0.05em;
     background-color: red;
@@ -41,7 +42,7 @@ a:link {
 }
 
 a:hover, a:active {
-    /* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
+/* Hiiri linkin päällä tuo esiin värillisen laatikon linkin ympärille ja teksti muuttuu valkoiseksi */
     background-color: rgb(23, 23, 23);
     color: white;
 }
